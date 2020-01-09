@@ -15,7 +15,8 @@ Prema priloženoj formi wrd-1.png markup-u wrdIntegralno.html napraviti HTML str
 Prema priloženoj formi stranica.jpg uciniti HTML stranicu iz zadatka 1 responsivnom da bude prilagođena mobilnim uređajima. Promjena izgleda stranice treba se desiti kada širina prozora browser-a postanje manja od 600px. Stavke na navigacijskom menu-u mijenjaju boju prilikom hovera mišem. Izgled navigacijskog menija pogledati u nastavku ove specifikacije u djelu Izgled menija na hover (CSS). 
 
 ## Zadatak 3 (JavaScript ili jQuery validacija) 
-*Integralno: Ukupno 10 bodova*
+
+*Integralno: Ukupno 10 bodova*  
 *Drugi parcijalni: Ukupno 20 bodova (raditi na file-u wrd2parc.html)*
 
 Ostvariti validaciju podataka u input box na slijedeci nacin:
@@ -26,7 +27,7 @@ Ostvariti validaciju podataka u input box na slijedeci nacin:
 
 ## Zadatak 4 (JavaScript ili jQuery CRUD):
 
-*Integralno: Ukupno 20 bodova* 
+*Integralno: Ukupno 20 bodova*  
 *Drugi parcijalni: Ukupno 80 bodova (raditi na file-u wrd2parc.html)*
 
 Integralni i parcijalni:

@@ -16,7 +16,7 @@ Prema priloženoj formi WRDResponsive.jpg uciniti HTML stranicu iz zadatka 1 res
 
 ## Zadatak 3 (JavaScript ili jQuery validacija) 
 
-*Integralno: Ukupno 10 bodova* 
+*Integralno: Ukupno 10 bodova*  
 *Drugi parcijalni: Ukupno 20 bodova (raditi na file-u wrd2parc.html)*
 
 Ostvariti validaciju podataka u input box na slijedeci nacin:
@@ -27,7 +27,7 @@ Ostvariti validaciju podataka u input box na slijedeci nacin:
 
 ## Zadatak 4 (JavaScript ili jQuery CRUD):
 
-*Integralno: Ukupno 40 bodova* 
+*Integralno: Ukupno 40 bodova*  
 *Drugi parcijalni: Ukupno 80 bodova* 
 
 Obezbjediti slijedeće funkcionalnosti:
@@ -67,6 +67,8 @@ Obratiti pažnju na scroll bar sa desne strane. Pomoć:
 
 
 **U nastavku su print screen-ovi sa detaljima izgleda i funkcionalnosti**
+
+**Osnovni izgled stranice**
 
 ![Osnovni izgled stranice](src-readme/Slika_02.png)
 
