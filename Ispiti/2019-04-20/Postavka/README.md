@@ -26,7 +26,7 @@ Ostvariti slijedeće funkcionalnosti:
 
 Kotiranje stranice:
 
-![Kotiranje stranice](src-readme/Slika_01.png)
+![Kotiranje stranice](readme/Slika_01.png)
 
 Za ostatak stranice koji nije kotiran, procijeniti veličinu prema slici.
 Obratiti pažnju na scroll bar sa desne strane. Pomoć: 
@@ -42,31 +42,31 @@ Obratiti pažnju na scroll bar sa desne strane. Pomoć:
 
 **Osnovni izgled stranice**
 
-![Osnovni izgled stranice](src-readme/Slika_02.png)
+![Osnovni izgled stranice](readme/Slika_02.png)
 
 **Izgled donjeg djela desne strane**
 
 **Klikom na sliku, slika dobova žuti okvir (JavaScript)**
 
-![Klik na sliku](src-readme/Slika_03.png)
+![Klik na sliku](readme/Slika_03.png)
 
 **Hover pointerom preko slike rezultira implementacijom opacity 80% (CSS).**
 
-![Hover](src-readme/Slika_04.png)
-![Hover](src-readme/Slika_05.png)
-![Hover](src-readme/Slika_06.png)
+![Hover](readme/Slika_04.png)
+![Hover](readme/Slika_05.png)
+![Hover](readme/Slika_06.png)
 
-![Klik](src-readme/Slika_07.png)
-![Klik](src-readme/Slika_08.png)
+![Klik](readme/Slika_07.png)
+![Klik](readme/Slika_08.png)
 
 **Izgled menija na hover (CSS)**
 
-![Meni on hover](src-readme/Slika_09.png)
+![Meni on hover](readme/Slika_09.png)
 
 **Izgled stranice na mobilnom uređaju (ispod 600px širine)**
 
 **Slike su jedna ispod druge.**
 
-![Mobile](src-readme/Slika_10.png) ![Mobile](src-readme/Slika_11.png)
+![Mobile](readme/Slika_10.png) ![Mobile](readme/Slika_11.png)
 
-![Mobile](src-readme/Slika_12.png) ![Mobile](src-readme/Slika_13.png)
+![Mobile](readme/Slika_12.png) ![Mobile](readme/Slika_13.png)

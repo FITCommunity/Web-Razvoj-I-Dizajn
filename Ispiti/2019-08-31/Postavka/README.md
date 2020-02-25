@@ -56,7 +56,7 @@ Bonus zadatak (dodatnih 10 bodova): Umjesto prikaza svih narudžbi, filtrirati n
 
 **Kotiranje stranice**
 
-![Kotiranje stranice](src-readme/Slika_01.png)
+![Kotiranje stranice](readme/Slika_01.png)
 
 Za ostatak stranice koji nije kotiran, procijeniti veličinu prema slici.
 Obratiti pažnju na scroll bar sa desne strane. Pomoć: 
@@ -70,13 +70,13 @@ Obratiti pažnju na scroll bar sa desne strane. Pomoć:
 
 **Osnovni izgled stranice**
 
-![Osnovni izgled stranice](src-readme/Slika_02.png)
+![Osnovni izgled stranice](readme/Slika_02.png)
 
 **Izgled menija na hover (CSS)**
 
-![Meni on hover](src-readme/Slika_03.png)
+![Meni on hover](readme/Slika_03.png)
 
 **Izgled stranice na mobilnom uređaju (ispod 600px širine)**
 
-![Mobile](src-readme/Slika_04.png)
+![Mobile](readme/Slika_04.png)
 

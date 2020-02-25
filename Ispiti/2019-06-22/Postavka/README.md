@@ -55,7 +55,7 @@ Samo drugi parcijalni:
 
 **Kotiranje stranice**
 
-![Kotiranje stranice](src-readme/Slika_01.png)
+![Kotiranje stranice](readme/Slika_01.png)
 
 Za ostatak stranice koji nije kotiran, procijeniti veličinu prema slici.
 Obratiti pažnju na scroll bar sa desne strane. Pomoć: 
@@ -73,24 +73,24 @@ Obratiti pažnju na scroll bar sa desne strane. Pomoć:
 
 **Klikom na sliku, slika dobova žuti okvir (JavaScript)**
 
-![Osnovni izgled stranice](src-readme/Slika_02.png)
+![Osnovni izgled stranice](readme/Slika_02.png)
 
 **Hover pointerom preko slike rezultira implementacijom opacity 80% (CSS).**
 
-![Hover](src-readme/Slika_03.png)
-![Hover](src-readme/Slika_04.png)
-![Hover](src-readme/Slika_05.png)
+![Hover](readme/Slika_03.png)
+![Hover](readme/Slika_04.png)
+![Hover](readme/Slika_05.png)
 
 **Izgled menija na hover (CSS)**
 
-![Meni on hover](src-readme/Slika_06.png)
+![Meni on hover](readme/Slika_06.png)
 
 **Izgled stranice na mobilnom uređaju (ispod 600px širine)**
 
 **Slike su jedna ispod druge.**
 
-![Mobile](src-readme/Slika_07.png) ![Mobile](src-readme/Slika_08.png)
+![Mobile](readme/Slika_07.png) ![Mobile](readme/Slika_08.png)
 
-![Mobile](src-readme/Slika_09.png)
+![Mobile](readme/Slika_09.png)
 
 
