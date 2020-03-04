@@ -1,0 +1,174 @@
+body, * {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+nav {
+    padding-left:65px;
+    padding-right: 15px;
+    background: #1b5fc2;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+}
+
+a.IzbornikStavka{
+    width: 100%;
+    padding:10px;
+    text-decoration: none;
+    float: left;
+    color: white;
+}
+
+img.VilaKolonaOkvir {
+    max-width: 90%;
+}
+
+div#wrapper {
+    margin-left: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.VilaKolonaWrapper {
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+
+h3, h4 {
+    margin-top: 10px;
+}
+
+p.VilaOpis {
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 450%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 15%;
+    margin-bottom: 10px;
+}
+
+.Kontejner {
+    margin-top: 15px;
+    clear: left;
+}
+
+input#Slika {
+    width: 100%;
+    background: #cdcdcd;
+}
+
+.clearfix 
+{ 
+    clear:both; 
+}
+
+.KolonaTextbox {
+    width: 33%;
+    float: left;
+}
+
+input {
+width:100%;
+padding: 5px;
+}
+
+input[type="submit"] {
+    cursor:pointer;
+}
+td {
+    overflow-wrap: break-word;
+}
+
+#IzbornikDugme {
+    cursor:pointer;
+    display:none;
+}
+
+@media only screen and (max-width: 600px) {
+    th, td {
+        font-size: 12px;
+    }
+    #IzbornikDugme {
+        display:inline;
+    }
+    #Izbornik {
+        display:none;
+    }
+    nav {
+        line-height: 55px;
+        height:60px;
+        width:100%;
+        position:static;
+        margin:0;
+        padding:0;
+    }
+    nav div {
+        margin:0 !important;
+    }
+    .IzbornikStavka {
+        text-align: center;
+        background:#1b5fc2;
+    }
+    .VilaKolonaWrapper {
+        width: 100%;
+        margin-bottom:25px;
+    }
+    div#wrapper {
+        margin:0;
+        margin-top:5px;
+    }
+
+    nav a, nav span {
+        display: inline;
+    }
+
+    nav span {
+        margin-left: 20px;
+    }
+
+    nav a{
+        line-height: 35px;
+    }
+    h1{
+        text-align: left;
+        line-height: 60px;
+    }
+ 
+}
+
+.VilaKolonaOkvir:hover {
+    opacity:0.8;
+    cursor:pointer;
+}
+
+.KolonaTextbox div {
+    height: 37px;
+}
+
+#Izbornik a:hover {
+
+    background:#367ee4;
+  
+    }
+
+
+    label {
+        margin-top: 15px;
+        display: block;
+    }
+    
+    .vidljivo {
+        display:block !important;
+    }
