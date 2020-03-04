@@ -1,0 +1,150 @@
+/* Svaki browser ima svoje default margine, najbolje resetovati na 0 i box-sizing staviti za sve elemente border-box */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    /* ../  da se vrati jedan folder nazad u odnosu gdje se nalazi css
+        ./ je trenutna lokacija, u ovom slucaju moramo se vratiti folder nazad jer nam je trenutni wrd_files */
+    background: url(../img/slika.jpg) fixed no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table {
+    table-layout: fixed;
+    width:100%;
+}
+table img {
+    width:100%;
+}
+
+td {
+    text-align: center;
+    /* Ako ne moze da stane da prebaci u novi red */
+    overflow-wrap: break-word;
+}
+
+button.like, button.odaberi {
+    background: black;
+    border: 0;
+    border-bottom: 2px solid blue;
+    color: white;
+    padding: 7px;
+}
+
+div#pozadina {
+    background: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.4;
+}
+
+label.error {
+    text-align:right;
+    color:red;
+    width:100%;
+}
+
+#providnoNav {
+    background: #7878f5a8;
+    padding-bottom: 85px;
+}
+div#wrapper {background: #ffffffcc;}
+
+
+input, select {
+    background: black;
+    color: silver;
+    border: 0;
+    border-bottom: 2px solid blue;
+    width: 70%;
+    overflow: hidden;
+}
+
+
+input[type="button"] {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+label {width: 30%;display: block;float: left;}
+
+
+/*za mobile*/
+@media(max-width: 600px)
+{
+   
+    nav {
+        color: white;
+    
+    }
+    
+    a.IzbornikStavka {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    
+    div#Izbornik {
+        text-align: center;
+    }
+
+
+}
+
+
+/*za desktop*/
+@media(min-width:600px)
+{
+    nav {
+        color: white;
+   
+    }
+
+    a.IzbornikStavka {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 10px;
+        display: block;
+        text-align: left;
+        margin-top: 13px;
+        padding: 5px;
+        margin-right: 5px;
+    }
+    
+    a.IzbornikStavka:hover {
+        background: #377de6;
+    }
+    div#Izbornik {
+        text-align: center;
+    }
+
+    div#wrapper {
+        background: #ffffffcc;
+        float: left;
+        width: 60%;
+        margin-left: 20%;
+
+    }
+
+    #providnoNav {
+        background: #7a7af3a3;
+        height: 100%;
+        width: 20%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+ 
+
+}
