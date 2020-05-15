@@ -5,4 +5,6 @@
 
 # Contributors
 
-[Enis Mulić](https://github.com/PancakeAlchemist)  
+* [Nermin Pamuk](https://github.com/webork) 
+* [Erin Džinić](https://github.com/ErinDzinic)
+* [Enis Mulić](https://github.com/PancakeAlchemist)  
