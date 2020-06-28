@@ -1,0 +1,185 @@
+* {
+	box-sizing:border-box;
+}
+
+html,body {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family:"Open Sans", sans-serif;
+}
+
+h1 {
+	margin: 0;
+    margin-bottom: 15px;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+h3 {
+	margin:5px 0 25px;
+	font-weight:normal;
+}
+
+img {
+	width:100%;
+	height:auto;
+}
+
+/* Navigation style */
+
+nav {
+	width: 275px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background:#1c5fc2;
+    font-weight: bold;
+	color:#fff;
+}
+
+.active {
+	background:yellow;
+}
+
+#IzbornikDugme {
+	display:none;
+}
+
+#Izbornik {
+	margin:0 10px;
+}
+
+#Izbornik a {
+	display:block;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding:10px 15px;
+}
+
+#Izbornik a:hover {
+	background:#3079e4;
+}
+
+#Izbornik a:first-child {
+	text-transform: capitalize;
+}
+
+/* content style */
+
+#wrapper {
+	margin-left:275px;
+	padding:20px 80px;
+}
+
+#wrapper div:first-child hr {
+	max-width: 50px;
+    margin: 0 0 15px;
+}
+
+.Kontejner {
+	overflow:hidden;
+}
+
+.VilaKolonaWrapper {
+    width: 33%;
+    float: left;
+    text-align:center;
+}
+
+.VilaKolonaWrapper img {
+	padding:15px;
+}
+
+.VilaKolonaWrapper img:hover {
+	opacity:0.8;
+}
+
+/* Form styling  */ 
+
+form > div {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #dadada;
+    padding: 10px;
+    font-size: 15px;
+}
+
+button {
+	width: 100%;
+    border: 0;
+    background: #1c5fc2;
+    padding: 15px;
+    color: #fff;
+}
+
+.KolonaTextbox {
+    width: 33%;
+    float: left;
+}
+
+
+@media only screen and (max-width:991px) {
+	nav {
+		width:200px;
+	}
+
+	#wrapper {
+		margin-left:200px;
+		padding:20px 40px;
+	}
+
+	.VilaKolonaWrapper,
+	.KolonaTextbox {
+		width:100%;
+	}
+
+	.KolonaTextbox {
+		margin-bottom:15px;
+	}
+
+
+}
+
+@media only screen and (max-width:600px) {
+	nav {
+		width:100%;
+		position:static;
+		overflow:hidden;
+	}
+
+	#Izbornik {
+		display:none;
+	}
+
+	#Izbornik a {
+		border-bottom:1px solid #2c73dc;
+	}
+
+	#Izbornik a:last-child {
+		border-bottom:0;
+	}
+
+	#IzbornikDugme {
+		display:inline-block;
+		margin-right:15px;
+	}
+
+	#wrapper {
+		margin:0;
+	}
+}
