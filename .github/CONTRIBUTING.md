@@ -2,9 +2,8 @@
 
 ## Postavke
 * Postavka ispitnog zadatka treba biti identična onoj koja se dobije na ispitu    
+* Postavku konvertovati iz `Word` dokumenta u `PDF` kako bi se mogla direktno gledati na githubu
 * Postavku uploadovati u folder `Ispiti/YYYY-MM-DD/Postavka/`
-* U folder Postavka dodati folder `readme/` koji će sadržavati slike iz fajla gdje je opisano šta treba uraditi na ispitu
-* U folder Postavka dodati `README.md` koji će služiti kao live preview postavke zadatka      
 
 ## Rješenja
 * Rješenje ispitnog zadatka treba sadržavati samo relevantne fajlove (`*.html`, `*.css`, `*.js`), to jeste ukloniti bilo kakvu postavku, upute i podsjetnike
