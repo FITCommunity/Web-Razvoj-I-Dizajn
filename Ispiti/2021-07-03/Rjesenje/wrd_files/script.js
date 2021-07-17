@@ -69,3 +69,7 @@ const postaviRadnike = (obj) => {
 };
 
 getPodatke(postaviRadnike, urlGet4Radnika);
+
+$("#IzbornikDugme").on("click", function(){ //padajuci meni za telefon
+    $("#Izbornik").toggle();
+})
