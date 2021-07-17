@@ -32,32 +32,32 @@ $("#forma").validate({
     },
 });
 
-const getPodatke = (callback, url) => {
-    var zahtjev = new XMLHttpRequest();
-
-    zahtjev.onload = () => {
-        if (zahtjev.status === 200) {
-            callback(JSON.parse(zahtjev.responseText));
-        } else {
-            alert("Server javlja grešku: " + zahtjev.statusText);
-        }
-    };
-
-    zahtjev.onerror = () => {
-        alert("Greška u komunikaciji sa serverom.");
-    };
-
-    zahtjev.open("GET", url, true);
-    zahtjev.send(null);
+const getPodatke = (url, callback) => {
+    fetch(url)
+        .then((response) => {
+            if (response.status === 200) {
+                return response.json();
+            } else {
+                throw new Error("Server javlja grešku: " + zahtjev.statusText);
+            }
+        })
+        .then((response) => {
+            callback(response);
+        })
+        .catch((error) => {
+            alert(error);
+        });
 };
 
-let urlGet4Radnika =
-    "https://restapiexample.wrd.app.fit.ba/Ispit20210702/Get4Studenta";
+let baseUrl = "https://restapiexample.wrd.app.fit.ba/Ispit20210702";
 
 const kreirajRadnika = (obj) => {
     return `<img src="${obj.slikaPutanja}"/>
-        <h3>${obj.imePrezime}</h3>
-        <p>${obj.opis}</p>`;
+        <div class="tekstRadnika">
+            <h3>${obj.imePrezime}</h3>
+            <p>${obj.opis}</p>
+            <button>Piši poruku</button>
+        </div>`;
 };
 
 const postaviRadnike = (obj) => {
@@ -68,4 +68,53 @@ const postaviRadnike = (obj) => {
     }
 };
 
-getPodatke(postaviRadnike, urlGet4Radnika);
+const postaviPrimaoca = (primaoc) => {
+    let input = document.querySelector("#forma input#primaoc");
+    input.value = primaoc;
+};
+
+$(document).on("click", "[id^=radnik] button", (e) => {
+    let primaoc = e.target
+        .closest(".tekstRadnika")
+        .querySelector("h3").innerHTML;
+
+    postaviPrimaoca(primaoc);
+});
+
+const posaljiPoruku = (url, data) => {
+    fetch(url, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+    })
+        .then((response) => {
+            alert(response.status);
+            if (response.status !== 200) {
+                alert("Doslo je do greske na serveru: " + response.status);
+                return;
+            } else {
+                response.json().then((response) => {
+                    console.log(response);
+                });
+            }
+        })
+        .catch((error) => {
+            alert("Doslo je do nepoznate greske " + error);
+        });
+};
+
+getPodatke(baseUrl + "/Get4Studenta", postaviRadnike);
+
+const sendMessage = () => {
+    let message = {
+        imePrezime: document.getElementById("primaoc").value,
+        naslov: document.getElementById("naslov").value,
+        telefon: document.getElementById("telefon").value,
+        poruka: document.getElementById("poruka").value,
+        datumVrijeme: new Date().toISOString(),
+    };
+
+    posaljiPoruku(baseUrl + "/Add", message);
+};
