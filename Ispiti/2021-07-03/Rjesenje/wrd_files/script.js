@@ -118,3 +118,8 @@ const sendMessage = () => {
 
     posaljiPoruku(baseUrl + "/Add", message);
 };
+
+$("#IzbornikDugme").on("click", function () {
+    //padajuci meni za telefon
+    $("#Izbornik").toggle();
+});
