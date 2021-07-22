@@ -145,4 +145,10 @@ textarea {
         margin: 0;
         width: 100%;
     }
+    #RadnikKontejner {
+        flex-wrap: wrap;
+    }
+    [id^="radnik"] {
+        width: 50%;
+    }
 }
